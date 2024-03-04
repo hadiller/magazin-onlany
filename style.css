@@ -38,3 +38,35 @@ body {
   display: flex;
   align-items: center;
 }
+
+.sneakers-card {
+  width: 210px;
+  height: 260pxg;
+  border: 1px solid black;
+  position: relative;
+  padding: 20px 30px;
+  border-radius: 40px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.131);
+}
+.sneakers__card-img {
+  width: 133px;
+  height: 112;
+}
+.sneakers__card-like {
+  position: absolute;
+  background: none;
+  border: none;
+}
+.sneakers__card-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sneakers__actions-cart {
+  background: none;
+  border: none;
+}
+.sneakers__card-title {
+  font-size: 14px;
+  margin: 14px 0px;
+}
